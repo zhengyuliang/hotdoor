@@ -1,3 +1,7 @@
 # hotdoor
 
-本人的第一个gitHub项目，这是一个测试项目，第一次接触这类东西
+本人的第一个gitHub项目.
+
+自己完善一个项目，此项目为学习之用，主要gulp\angularJS\javascript\html5之类的。
+
+（gulp 自动化管理，自动化打包）
