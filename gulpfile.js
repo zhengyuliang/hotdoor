@@ -28,6 +28,7 @@ var gulp = require('gulp'), //必须选引入gulp插件
 var pkg = require('./package.json'); //版本管理内容
 
 var outputDir = 'dist'; //生成文件的地址
+var outputDir1 = 'dists';
 
 // css （拷贝 *.min.css，常规 CSS 则输出压缩与未压缩两个版本）
 gulp.task('sass',function() {
