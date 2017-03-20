@@ -1,0 +1,17 @@
+/**
+ * 跨平台的opacity
+ *
+ * @author 大仙
+ * @github https://github.com/okoala
+ * @date   2014-8-12
+ */
+
+@mixin opacity($opacity: 0.5) {
+  	$opacity-ie: $opacity * 100;
+
+  	opacity: $opacity;
+  	-moz-opacity:   $opacity;
+    -khtml-opacity: $opacity;
+  	filter: alpha(opacity=$opacity-ie); //IE8
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" + $opacity-ie + ")";
+}

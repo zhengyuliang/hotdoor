@@ -1,0 +1,22 @@
+/**
+ * 隐藏一个节点
+ *
+ * 当你用display:none 隐藏一个节点的时候，它将会阻止屏幕阅读器去阅读它。有时候它很有用，
+ * 但是在另一个方面，它也会使得那些用屏幕阅读器的人难以使用。所以我们需要别的技术去实现
+ * 隐藏，并且有较好的可访问性。
+ *
+ * @author 大仙
+ * @github https://github.com/okoala
+ * @date   2014-8-12
+ */
+
+%visuallyhidden {
+	margin: -1px;
+	padding: 0;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	clip: rect(0, 0, 0, 0);
+	position: absolute;
+}

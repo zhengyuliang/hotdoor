@@ -1,0 +1,16 @@
+/**
+ * 设置word-wrap
+ *
+ * @author 大仙
+ * @github https://github.com/okoala
+ * @date   2014-8-12
+ */
+
+@mixin word-wrap($wrap: break-word) {
+  word-wrap: $wrap;
+
+  @if $wrap == break-word {
+    overflow-wrap: break-word;
+    word-break: break-all;
+  }
+}

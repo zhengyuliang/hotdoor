@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/**
+ * DYY
+ * Author:TD
+ * Version:1.0.0
+ * Date:2016-11-28
+ * Info:后台整体界面的框架内容样式，注：重构整体框架内容
+ * 此为后台样式代码
+ */
+
+@import "mixins/css3";
+@import "mixins/ellipsis-overflow";
+@import "mixins/opacity";
+@import "reset";
+
+@import "globalVars"; //全局变量
+
+body{
+	font-size: 16px;
+	font-weight: 400;
+	color: red;
+}
